@@ -1,0 +1,5 @@
+S1=str(input('Introduceti primul sir:'))
+S2=str(input('Introduceti al doilea sir:'))
+print(f'a) caracterele care se întâlnesc cel puţin în unul dintre şiruri: {set(S1)&set(S2)}')
+print(f'b) caracterele care apar în ambele şiruri: {set(S1)|set(S2)}')
+print(f'c) caracterele care apar în primul şi nu apar în şirul al doilea: {set(S1)-set(S2)}')
